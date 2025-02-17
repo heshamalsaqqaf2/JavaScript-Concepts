@@ -33,3 +33,26 @@ if (true) {
 }
 console.log(myName);    // Output Yassen => Using Local Scope Var  
 console.log(myName2);   // Output Hesham => Using Global Scope let  
+
+
+
+// Lexical Scope
+function parentFunction() {
+    let a = 10;
+
+    function childFunction() {
+        console.log(`From A Child ${a}`);
+        // console.log(b); //! Error b => Is grandFunction
+
+        function grandFunction() {
+            let b = 100;
+            console.log(`From A Grand ${a}`);
+            console.log(`From B Grand ${b}`);
+        }
+        // console.log(b); //! Error b => Is grandFunction
+
+        grandFunction();
+    }
+    childFunction();
+}
+parentFunction();
