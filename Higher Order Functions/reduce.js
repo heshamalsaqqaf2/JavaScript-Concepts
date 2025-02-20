@@ -9,8 +9,8 @@ let reduceNumber = numbers.reduce(function (accumulator, currentElement, index, 
     console.log(accumulator + currentElement);
     console.log(`--------------------------------------`);
     return accumulator + currentElement;
-    //? Default Value Accumulator = 0
-}, 5); // Initialize Values in Accumulator = 5 
+    //? Default Value Accumulator = [0] then => index = [1]
+}); // Initialize Values in Accumulator = [5] then => index = [0]
 console.log("Sum Array of Numbers = ", reduceNumber);
 
 // TODO: Practice Reduce Method
