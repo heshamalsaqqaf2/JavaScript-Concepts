@@ -20,7 +20,7 @@ let filterNumbersAnonymous = numbers.filter(function (element) {
 console.log(filterNumbersAnonymous);
 
 
-// TODO: Exm => Practice Filter Method
+// TODO: Practice Filter Method
 let mix = "A13BS2ZX";
 // ?Use Anonymous Functions
 let filterNumberAnonymous = mix.split("").filter(function (element) {
