@@ -14,4 +14,13 @@ let reduceNumber = numbers.reduce(function (accumulator, currentElement, index, 
 console.log("Sum Array of Numbers = ", reduceNumber);
 
 // TODO: Practice Reduce Method
+let removeLetters = ['H', '@', 'E', '@', 'S', 'H', '@', 'A', 'M', '@'];
 
+let characters = removeLetters.filter(function (element) {
+    return element !== '@';
+}).map(function (element) {
+    return element === element.toUpperCase() ? element.toLowerCase() : element.toUpperCase();
+}).reduce(function (accumulator, currentElement) {
+    return `${accumulator}${currentElement}`;
+},);
+console.log(characters);
