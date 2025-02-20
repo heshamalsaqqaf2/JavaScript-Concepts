@@ -12,4 +12,5 @@ let reduceNumber = numbers.reduce(function (accumulator, currentElement, index, 
 });
 console.log("Sum Array of Numbers = ", reduceNumber);
 
-// TODO: Exm => Practice Reduce Method
+// TODO: Practice Reduce Method
+
