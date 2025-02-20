@@ -15,7 +15,7 @@ console.log(greet("Hesham")); // This Is Hoisting.
 function greet(name) {
   return `Hi ${name}`;
 }
-// *------------------------------------------------------------------------------------------------------------* //
+// *--------------------------------------------------------------------------------------------------* //
 
 /**
  * @name Expression-OR-Anonymous-Function
@@ -33,7 +33,7 @@ let printUserFullName = function (userName) {
   console.log(userName);
 }
 printUserFullName("Hesham Zohir Alsaqqaf");
-// *------------------------------------------------------------------------------------------------------------* //
+// *--------------------------------------------------------------------------------------------------* //
 
 /**
  * @name Arrow-Function
@@ -51,7 +51,7 @@ printUserFullName("Hesham Zohir Alsaqqaf");
  */
 const sumTwoNumbers = (a, b) => a + b;
 console.log(`Sum = ${sumTwoNumbers(5, 9)}`);
-// *------------------------------------------------------------------------------------------------------------* //
+// *--------------------------------------------------------------------------------------------------* //
 
 /**
  * @name Immediately-Invoked-Function-Expression-[IIFE]
@@ -68,4 +68,4 @@ console.log(`Sum = ${sumTwoNumbers(5, 9)}`);
 })(); // Called immediately after being defined
 
 // TODO: Trying to access the variable message outside of IIFE will produce an error
-// !console.log(message); // ReferenceError: message is not defined
+// console.log(message); //! ReferenceError: message is not defined
