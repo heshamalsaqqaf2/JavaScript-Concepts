@@ -22,5 +22,5 @@ let characters = removeLetters.filter(function (element) {
     return element === element.toUpperCase() ? element.toLowerCase() : element.toUpperCase();
 }).reduce(function (accumulator, currentElement) {
     return `${accumulator}${currentElement}`;
-},);
+});
 console.log(characters);
