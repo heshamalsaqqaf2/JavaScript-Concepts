@@ -7,9 +7,9 @@ let reduceNumber = numbers.reduce(function (accumulator, currentElement, index, 
     console.log(`Current Element ${currentElement}`);
     console.log(`Index ${index}`);
     console.log(`Array ${array}`);
-    console.log("Sum Array of Numbers = ", accumulator + currentElement);
+    console.log(accumulator + currentElement);
     console.log(`----------------------------`);
-    
+
     return accumulator + currentElement;
 });
-console.log(reduceNumber);
+console.log("Sum Array of Numbers = ", reduceNumber);
