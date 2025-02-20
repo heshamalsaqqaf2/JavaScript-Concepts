@@ -20,7 +20,7 @@ let mapNum2 = arrayNumbers.map((element) => element + element);
 console.log("Map Arrow: ", mapNum2);
 
 
-// TODO: Exm => Practice Map Method
+// TODO: Practice Map Method
 let ignoreNumbers = "Hes123ha4m";
 let ign = ignoreNumbers.split("").map(function (element) {
     // return isNaN(parseInt(element)) ? element : "";
