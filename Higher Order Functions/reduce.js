@@ -9,6 +9,7 @@ let reduceNumber = numbers.reduce(function (accumulator, currentElement, index, 
     console.log(`Array ${array}`);
     console.log("Sum Array of Numbers = ", accumulator + currentElement);
     console.log(`----------------------------`);
+    
     return accumulator + currentElement;
 });
 console.log(reduceNumber);
